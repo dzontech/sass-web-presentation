@@ -1,0 +1,150 @@
+/***********************Personal Info Links*************************/
+.personal-info { 
+    color: #2c3e50 !important;
+    -webkit-text-stroke: #FA4F56 1px;
+}
+.fab.fa-facebook:hover{
+    color:#1877f2 !important;
+    
+  }
+.fab.fa-instagram:hover {
+    color: purple !important;
+  }
+.fab.fa-twitter:hover{
+    color: rgb(0, 138, 218) !important;
+  }
+
+
+  
+  .pad-r-mar{
+    padding-right: 3rem;
+  }
+  .pad-l-iv{
+    padding-left: 3rem;
+  }
+  .pad-r-jov{
+    padding-right: 3rem;
+  }
+  .marko{
+    width: 30rem; 
+    height: 30rem;
+  }
+  .ivan{
+    width: 30rem; 
+    height: 30rem;
+  }
+  .jovan{
+    width: 30rem; 
+    height: 30rem;
+  }
+
+  .ivan-top-bot {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .jovan-top-bot{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  /*********************************Responsive*************************/
+@media screen and (max-width: 1024px) {
+
+  #ivan {order: 2;}
+  #ivan2{order: 1;}
+
+  .pad-r-mar{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  .pad-l-iv{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  .pad-r-jov{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  
+}
+@media screen and (max-width: 991px) {
+
+  #ivan {order: 2;}
+  #ivan2{order: 1;}
+
+  .pad-r-mar{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  .pad-l-iv{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  .pad-r-jov{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  
+  .marko {
+    width: 25rem; 
+    height: 25rem;
+  }
+  .ivan{
+    width: 25rem; 
+    height: 25rem;
+  }
+  .jovan{
+    width: 25rem; 
+    height: 25rem;
+  }
+}
+@media screen and (max-width: 768px){ 
+  
+  #ivan {order: 2;}
+  #ivan2{order: 1;}
+
+  .pad-r-mar{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  .pad-l-iv{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+  .pad-r-jov{
+    padding: 3rem 3rem 3rem 3rem;
+  }
+
+  .marko {
+    width: 20rem; 
+    height: 20rem;
+  }
+  .ivan{
+    width: 20rem; 
+    height: 20rem;
+  }
+  .jovan{
+    width: 20rem; 
+    height: 20rem;
+  }
+ 
+}
+
+@media screen and (max-width: 576px){
+  #ivan {order: 2;}
+  #ivan2{order: 1;}
+
+  .pad-r-mar{
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+  }
+  .pad-l-iv{
+    padding-left: 2rem;
+    padding-right: 2rem;
+   
+  }
+  .pad-r-jov{
+    padding-right: 2rem;
+    padding-left: 2rem;
+  } 
+  .ivan-top-bot {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+  .jovan-top-bot{
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+  }
+}

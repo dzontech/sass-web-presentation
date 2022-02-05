@@ -1,0 +1,86 @@
+/****************************** Search button ******************************/
+
+.search {
+    position: relative;
+}
+.search-btn {
+    height: 50px;
+    width: 35rem;
+    padding-left: 32px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.20rem;
+    font-style: normal;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.12);;
+    margin: 0 auto;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    right: 26%;
+    transform: translate(-50%,-50%);
+}
+.search-btn:focus {
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.247);;
+    color: #FA4F56 !important;
+}
+/****************************** Documentation cards ******************************/
+
+.documentation-cards {
+    background-image: linear-gradient(to right,#FA4F56,#2c3e50);
+}
+
+.card{
+    border-radius: 15px !important;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.753) !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08) !important;
+    transform: scale(1);
+    overflow: hidden;
+    transition: all .7s ease;
+    
+}
+.card:hover {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.623) !important;
+    transform: scale(1.03);
+}
+.card-1 {
+    color: #FA4F56 !important;
+}
+.card-2 {
+    color: #2c3e50 !important;
+}
+
+.card-3 {
+    color: #55c57a !important;
+}
+.card-4 {
+    color: #3f51b5 !important;
+}
+.card-5 {
+    color: #ff6f00!important;
+}
+.card-6 {
+    color: #ff3d00 !important;
+}
+.card-7 {
+    color: #c7af28 !important;
+}
+.card-8 {
+    color: #00c3ff !important;
+}
+.img-back {
+    height: 340px;
+    background-image:  url(../img/Sass-Logo-_White_.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/***************************** Media Reasponsive*********************************/
+@media only screen and (min-width: 1300px){
+    .documentation-header {
+        height: 700px;
+    }
+}

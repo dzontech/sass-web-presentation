@@ -1,0 +1,57 @@
+/**************Heading image**************/
+.top-margin {
+    position: relative;
+    min-height: 500px;
+    margin-top: 66px;
+    background-image: linear-gradient(rgba(21, 34, 107, 0.336),
+    rgba(0, 0, 0, 0)), url("/img/history/slika1.jpg");
+    background-size: cover;
+}
+.top-margin-child {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transform: translate(-5%,-10%);
+}
+.heading-section .container {
+    width: 70% !important;
+    float: left;
+}
+/*************Introduction section********/
+#intro-section {
+    background-color: #f7f7f7;
+    padding-top: 40px;
+}
+.shadowi {
+    box-shadow: 0 5px 15px rgba(3, 50, 151, 0.9);
+}
+.shadowi-2 {
+    box-shadow: 0 5px 15px rgba(173, 4, 109, 0.9);
+}
+
+/***************Creators*****************/
+.background {
+    background-color: #2c3e50;
+}
+
+/*******Conclusion*********/
+#conslusion-section {
+    background-image: linear-gradient(to right,#FA4F56,#2c3e50);
+    box-shadow: 1px -3px 10px rgba(255, 255, 0, 0.774);
+    border-top: 1px solid rgba(255, 255, 0, 0.774);
+}
+
+/****************MEDIA********************/
+/* 575 768 992 1024 1200 */
+@media (max-width:1060px){
+    h3{
+        text-align: center;
+    }
+    #heading-section .container {
+        width: 100% !important;
+        text-align: center;
+    }
+    #heading-section .container h1{
+        font-size: 3rem;
+    }
+}
