@@ -1,2 +1,2 @@
-# Sass-web-presentation
-Zajednicki projekat za predmet Web tehnologije sa (Ivan Krstic, Marko Djordjevic)
+# sass-web-presentation
+Group university project with Ivan Krstic and Marko Djordjevic
