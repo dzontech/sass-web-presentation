@@ -1,0 +1,176 @@
+/******************************Breadcrumb links*************************/
+  .breadcrumb-link {
+    color: #ffffff !important;
+    position: relative;
+  }
+  .breadcrumb-link:hover {
+    text-decoration: none;
+  }
+  .breadcrumb-link:after {    
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.5s ease 0s, left 0.5s ease 0s;
+    width: 0;
+  }
+  .breadcrumb-link:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+
+  /**************************Code Examples Buttons********************************/
+  .text-css {
+    border-color: #FA4F56;
+    background-color: #2c3e50;
+  }
+  .text-css:hover {
+    background-image: linear-gradient(to right,#2c3e50,#FA4F56);
+  }
+  .btn-outline {
+    border-color: #FA4F56;
+    background-color: #2c3e50;
+  }
+  .btn-outline:hover {
+    background-image: linear-gradient(to right,#2c3e50,#FA4F56);
+  }
+  
+/****************************SASS-SCSS Comparison*********************************/
+  .p1-SCSS{
+    color: #000000
+    ;
+   
+  }
+  .hide-p1-SCSS{
+    display: none;
+  }
+  .p2-SASS {
+    
+    display: none;
+  }
+  .show-p2-SASS {
+    color:black;
+    
+  }
+
+  .jumbo{
+  transition: all .3s ease-in-out;
+  }
+  .jumbo:hover {
+   transform: translate3d(0px, -17px, 0px);
+ }
+ 
+  /*************************Image***************************/
+  .image{
+    width: 40rem;
+    height: 20rem; 
+  }
+
+  /************************Padding Settings****************/
+  .pad-bot-top-intro-div {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .pad-top-intro-row{
+    padding-top: 3rem;
+  }
+  .pad-bot-top-intro-col1{
+    padding: 3rem;
+  }
+  .pad-bot-top-intro-col2{
+    padding: 3rem;
+  }
+  .pad-bot-intro-h1{
+    padding-bottom: 3rem;
+  }
+  .pad-bot-top-code-exam-div{
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+  
+
+  .video {
+    height: 40rem;
+    width: 55rem;
+    outline:none;
+  }
+   
+  /***************************Sass Basisc*************************/
+  .span-basics {
+    color: #55c57a !important;
+  }
+  
+
+  
+
+
+/***************************Responsive*************************/
+  
+@media screen and (max-width: 1024px) {
+  .video {
+    height: 30rem;
+    width: 45rem;
+  }
+ }
+  @media screen and (max-width: 768px){ 
+ 
+  .pad-bot-intro-div{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+  }
+  .pad-top-intro-row{
+   padding-top: 1rem;
+ }
+ .pad-bot-top-intro-col1{
+  padding: 0.5rem 3rem 3rem 3rem;
+}
+  .pad-bot-top-intro-col2{
+    padding: 0.5rem 3rem;
+  }
+
+  .pad-bot-intro-h1{
+    padding-bottom: 1rem;
+  }
+  .pad-bot-top-code-exam-div{
+    padding-bottom: 1rem;
+    padding-top:3rem;
+  }
+  .video {
+    height: 25rem;
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 576px){
+  .pad-bot-intro-div{
+    padding-bottom: 0.07rem;
+    padding-top: 0.07rem;
+  }
+  .pad-top-intro-row{
+   padding-top: 0.07rem;
+ }
+ .pad-bot-top-intro-col1{
+   padding: 0.07rem 3rem 3rem 3rem;
+ }
+  .pad-bot-top-intro-col2{
+    padding: 0.07rem 3rem;
+  }
+  
+  .pad-bot-intro-h1{
+    padding-bottom: 0.3rem;
+  }
+  .pad-bot-top-code-exam-div{
+    padding-bottom: 0.3rem;
+    padding-top:3rem;
+    
+  }
+
+  .video {
+    height: 15rem;
+    width: 25rem;
+    margin-top: 2rem;
+  
+  }
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML5 CSS3 SASS MIXINS VARIABLES FUNCTIONS DESIGN WEB">
+    <meta name="description"
+        content="Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>SASS | Home Page</title>
+</head>
+
+<body class="body">
+    
+    <!-- Navbar -->
+    <nav id="nav" class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">
+                <img src="./img/Sass-Logo-_White_.png" alt="" width="60" height="40">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#list">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="list" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-1"><a href="#hero-section" class="nav-link active">Home</a></li>
+                    <li class="nav-item px-1"><a href="#history" class="nav-link">History</a></li>
+                    <li class="nav-item px-1"><a href="#documentation" class="nav-link">Documentation</a></li>
+                    <li class="nav-item px-1"><a href="#aboutUs" class="nav-link">About Us</a></li>
+                    <li class="nav-item px-1"><a href="#users" class="nav-link">Users</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <div id="hero-section"></div>
+    <header  class="hero-section">
+        <div class="container">
+            <div class="row align-items-center text-center">
+                <div class="col-lg-6 d-none d-md-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 1216 912.085">
+                        <path id="sass-brands"
+                            d="M573.5,705.552C572.929,706.692,572.359,707.6,573.5,705.552Zm473.353-165.3a249.205,249.205,0,0,0-110.2,25.65c-11.21-22.61-22.8-42.37-24.7-57.191-2.28-17.29-4.75-27.55-2.09-48.071s14.63-49.591,14.44-51.681-2.66-12.54-27.17-12.73-45.6,4.75-48.052,11.21a233.369,233.369,0,0,0-10.07,36.29c-4.37,22.23-49,101.651-74.272,143.072-8.36-16.15-15.39-30.4-16.91-41.8-2.28-17.29-4.75-27.55-2.09-48.071s14.63-49.591,14.44-51.681-2.66-12.54-27.151-12.73-45.6,4.75-48.071,11.21-5.13,21.66-10.07,36.29-64.392,146.872-79.953,181.262c-7.98,17.48-14.82,31.54-19.76,41.04-.76,1.52-1.33,2.47-1.71,3.23.57-.95.95-1.9.95-1.52-4.18,8.17-6.65,12.73-6.65,12.73v.19c-3.23,6.08-6.84,11.59-8.55,11.59-1.14,0-3.61-15.96.57-37.81,8.93-45.981,30.02-117.421,29.83-119.891-.19-1.33,3.99-13.68-13.87-20.33-17.29-6.27-23.56,4.18-25.08,4.18s-2.66,3.8-2.66,3.8,19.19-80.561-36.841-80.561c-34.96,0-83.6,38.38-107.5,73.151-15.01,8.17-47.5,25.84-81.7,44.651-13.11,7.22-26.6,14.63-39.33,21.66-.95-.95-1.71-1.9-2.66-2.85C211.963,541.96,86.41,490.66,91.73,393.189c1.9-35.53,14.25-128.821,241.436-242.063,186.2-92.721,335.069-67.261,360.7-10.64,36.86,80.751-79.592,231.043-272.957,252.7-73.7,8.17-112.443-20.33-122.133-30.97-10.07-11.21-11.59-11.78-15.39-9.69-6.27,3.42-2.28,13.3,0,19.19,5.7,15.01,29.45,41.61,69.9,54.911,35.53,11.59,121.943,18.05,226.426-22.42C697.1,358.988,788.468,233.017,761.678,127.566,734.393,20.4,556.7-14.746,388.684,44.915c-100.112,35.53-208.375,91.391-286.257,164.162C9.915,295.717-4.886,371.148,1.194,402.689,22.835,514.6,177.079,587.561,238.811,641.521c-3.04,1.71-5.89,3.23-8.55,4.75C199.309,661.662,81.717,723.222,52.285,788.2c-33.25,73.721,5.51,126.541,30.951,133.762,79.4,22.04,160.7-17.67,204.385-82.841S326,688.832,305.862,650.071c-.19-.57-.57-.95-.76-1.52,7.98-4.75,16.15-9.5,24.32-14.25,15.751-9.31,31.141-17.86,44.632-25.27-7.6,20.52-13.11,45.22-15.96,80.941-3.42,41.8,13.87,95.951,36.29,117.231,9.88,9.31,21.831,9.5,29.241,9.5,26.22,0,38-21.66,51.092-47.5,16.15-31.54,30.4-68.211,30.4-68.211s-17.86,99.181,30.97,99.181c17.841,0,35.7-22.99,43.7-34.77v.19s.38-.76,1.33-2.28c1.9-2.85,2.85-4.56,2.85-4.56v-.57c7.22-12.35,22.99-40.66,46.721-87.4C661.471,610.361,690.9,534.93,690.9,534.93a382.363,382.363,0,0,0,11.78,49.021c5.32,18.05,16.53,37.81,25.46,57-7.22,9.88-11.59,15.58-11.59,15.58a.589.589,0,0,0,.19.38c-5.7,7.6-12.16,15.77-18.81,23.75-24.3,28.88-53.2,61.941-57,71.441-4.56,11.21-3.42,19.57,5.32,26.03,6.46,4.94,17.86,5.7,29.811,4.75,21.85-1.52,37.24-6.84,44.651-10.26a156.183,156.183,0,0,0,38.361-20.14c23.75-17.48,38.19-42.56,36.86-75.621-.76-18.24-6.65-36.48-13.87-53.581,2.09-3.04,4.37-6.27,6.46-9.5C826.126,558.87,855.2,498.6,855.2,498.6a382.366,382.366,0,0,0,11.78,49.021c4.56,15.39,13.471,32.3,21.641,48.831-35.321,28.69-57.172,61.941-64.772,83.791-14.06,40.47-3.04,58.711,17.67,62.891,9.31,1.9,22.61-2.47,32.49-6.65a150.974,150.974,0,0,0,41.021-21.09c23.75-17.48,46.721-41.991,45.2-75.241-.57-15.01-4.75-30.02-10.26-44.461,29.83-12.54,68.572-19.38,117.973-13.68,105.793,12.35,126.5,78.471,122.513,106.021s-26.22,42.94-33.63,47.5-9.69,6.27-9.12,9.69c.95,4.94,4.37,4.75,10.64,3.61,8.74-1.52,55.462-22.42,57.552-73.531,3.04-64.6-59.072-135.662-169.1-135.092ZM231.4,815.183c-34.941,38.19-83.962,52.631-105.033,40.47C103.757,842.506,112.687,786.3,155.8,745.6c26.22-24.7,60.022-47.5,82.442-61.561,5.13-3.04,12.54-7.6,21.66-13.11,1.52-.95,2.28-1.33,2.28-1.33,1.71-1.14,3.61-2.09,5.51-3.23,15.751,57.761.57,108.681-36.29,148.772ZM486.687,641.521c-12.16,29.83-37.791,105.831-53.372,101.841-13.3-3.42-21.47-61.371-2.66-118.371,9.5-28.69,29.64-62.891,41.61-76.191,19.171-21.47,40.261-28.31,45.2-19.76,6.65,11.21-23.18,93.861-30.78,112.481Zm210.9,100.7c-5.13,2.66-9.88,4.37-12.16,3.04-1.71-.95,2.09-4.56,2.09-4.56s26.41-28.31,36.86-41.23c6.08-7.6,13.11-16.53,20.691-26.41,0,.95.19,1.9.19,3.04-.247,34.01-32.908,57-47.729,66.121Zm162.6-37.05c-3.8-2.66-3.23-11.59,9.5-39.331,4.94-10.83,16.321-29.07,36.1-46.551a68.747,68.747,0,0,1,3.61,20.52c-.19,42.751-30.78,58.711-49.191,65.361Z"
+                            transform="translate(-0.004 -16.004)" fill="#fff" />
+                    </svg>
+                </div>
+                <div class="col-lg-6 align-self-center d-block d-sm-block">
+                    <h1 class="p-4">
+                        Make your desing remarkable...
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Preview section -->
+    <section class="preview-section py-5 ">
+        <div class="container">
+            <h1 class="display-4 text-dark text-center pb-4">Brief Introduction</h1>
+            <div class="row">
+                <div class="col-lg-4 mb-3 p-3">
+                    <div class="card card-body  text-center" data-toggle="modal" data-target="#modal1"
+                        style="padding-top: 120px;">
+                        <i class="fab fa-angrycreative fa-10x"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3 p-3">
+                    <div class="card card-body  text-center" data-toggle="modal" data-target="#modal2"
+                        style="padding-top: 120px;">
+                        <i class="far fa-play-circle fa-10x"></i>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3 p-3">
+                    <div class="card card-body  text-center" data-toggle="modal" data-target="#modal3"
+                        style="padding-top: 120px;">
+                        <i class="fab fa-app-store-ios fa-10x"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for preivews !! -->
+    <div id="modal1" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close text-danger" data-dismiss="modal">&times;</button>
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/2XGLekAZcgU" frameborder="0"  allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal2" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close text-danger" data-dismiss="modal">&times;</button>
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/qUnIReTCsZY" frameborder="0"  allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="modal3" class="modal fade">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button class="close text-danger" data-dismiss="modal">&times;</button>
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/owHBVuQVxPE" frameborder="0"  allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- History -->
+    <div  id="history"></div>
+    
+    <section class="history-section text-light pb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <h1 class="mb-4 display-4">History</h1>
+                    <h4 class=" text-start">
+                        Sass was initially designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006 as a
+                        feature of the Haml markup language.
+                        Originally written in Ruby, Sass has been ported to many languages...
+                    </h4>
+                    <a href="./history.html" class="btn btn-outline-light btn-lg mt-3 mb-5">Read More</a>
+                </div>
+                <div class="col-md-7">
+                    <img src="./img/sass-compiled.png" alt="History of Sass" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Documentation -->
+    <div  id="documentation" class="py-4"></div>
+    <section class="documentation-section py-5">
+        <div class="container">
+            <div class="row align-items-center ">
+                <div class="col-md-6 d-none d-sm-block">
+                    <div class="composition">
+                        <img src="./img/mixins.jpg" alt="" class="composition__photo composition__photo--p1">
+                        <img src="./img/functions.jpg" alt="" class="composition__photo composition__photo--p2">
+                        <img src="./img/nesting.jpg" alt="" class="composition__photo composition__photo--p3">
+                        <img src="./img/variables.jpg" alt="" class="composition__photo composition__photo--p4">
+                    </div>
+                </div>
+                <div class="col-md-6 documentation-size">
+                    <h1 class="mb-4 titles text-center">Documentation</h1>
+                    <h4 class="text-start little">
+                        Sass is a stylesheet language that’s compiled to CSS. It allows you to use <span>variables</span> , <span>nested rules</span>,<span>mixins</span> , <span>functions</span>, and more, all with a fully CSS-compatible syntax. Sass helps keep large stylesheets well-organized and makes it easy to share design within and across projects...
+                    </h4>
+                    <a href="./documentation.html" class="btn btn-outline-dark btn-lg mt-3 mb-3">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <div  id="aboutUs" class="mt-3"></div>
+    
+    <section class="aboutUs-section text-light py-5 mb-3 text-center">
+        <div class="container">
+            <h1 class="mb-4 display-4">About Us</h1>
+            <h2 >Chose your way to success</h2>
+            <h4> &mdash; JIM Team &mdash;</h4>
+            <a href="./aboutUs.html" class="btn btn-outline-light btn-lg mt-3 mb-3">Read More</a>
+        </div>
+    </section>
+    <!-- Users -->
+    <section id="users" class="author-section py-5 text-center text-light bg-dark">
+        <div class="container">
+            <h1 class="mb-4">Our Testimonials</h1>
+            <hr>    
+            <div class="row mt-5 pt-3">
+              <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center">
+                        <div class="card-img-top">
+                            <img src="./img/person1.jpg" alt="Person1" class="img-fluid  rounded-circle" width="105px" height="300px">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title ">Maryy Smith</h3>
+                            <h5 class="card-subtitle text-muted mb-2">Lead Writer</h5>
+                            <p class="card-text  mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center">
+                        <div class="card-img-top">
+                            <img src="./img/person2.jpg" alt="Person1" class="img-fluid  rounded-circle" width="105px" height="105px">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title ">Jack Wilson</h3>
+                            <h5 class="card-subtitle text-muted mb-2">Co-Writer</h5>
+                            <p class="card-text  mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center">
+                        <div class="card-img-top">
+                            <img src="./img/person3.jpg" alt="Person1" class="img-fluid  rounded-circle" width="105px" height="105px">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title ">Sara Leo</h3>
+                            <h5 class="card-subtitle text-muted mb-2">Editor</h5>
+                            <p class="card-text  mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card text-center">
+                        <div class="card-img-top">
+                            <img src="./img/person4.jpg" alt="Person1" class="img-fluid  rounded-circle" width="105px" height="105px">
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title ">Steve Smith</h3>
+                            <h5 class="card-subtitle text-muted mb-2">Designer</h5>
+                            <p class="card-text  mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed commodi nostrum, ab libero voluptas officia.</p>
+                            <div class="d-flex justify-content-between">
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </div>
+                                <div class="p-4">
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <a href="./users.html" class="btn btn-outline-light btn-lg mt-3 mb-3">See More ...</a>
+    </section>
+     
+    <!-- Footer -->
+    <footer class="pt-0">
+        <div class="container-fluid bg-light p-5">
+            <div class="row">
+                <div class="col-lg-12 text-center my-3">
+                    <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+                    <a href=""><i class="fab fa-instagram fa-2x mx-4"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-2x "></i></a>
+                </div>
+            </div>
+            <div class="row mt-3">
+                
+                <div class="col-lg-6 text-center">
+                    <p>© All rights reserved JIM 2020</p> 
+                </div>
+                <div id="google_translate_element" style="position: absolute; bottom: 0%; left: 43%;" class="text-center mt-5">
+                    Translate?
+                </div>
+                <div class="col-lg-6 text-center text-light mb-3">
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">English</a>
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">FAQ </a>
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">Legal Terms</a>
+                    <a class="foot-link" style="text-decoration: none;" href="#">Privacy Policy</a>
+                </div>
+                
+            </div>
+        </div>
+        
+    </footer>
+
+    
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <!-- Our JS File -->
+    <script src="./js/index.js"></script>
+</body>
+</html>

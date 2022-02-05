@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.">
+    <meta name="keywords" content="Sass CSS3 Design Project WEB Mixins Functions">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/documentation-content-template.css">
+
+    <title>Sass</title>
+</head>
+
+<body>
+    <div class="fixed-icon-scroll scroll-on-click">
+        <a href="#scBTN"><span><i class="fas fa-chevron-up text-danger"></i></span></a>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">
+                <img src="/img/Sass-Logo-_White_.png" alt="" width="60" height="40">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#list">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="list" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-1"><a href="../index.html" class="nav-link ">Home</a></li>
+                    <li class="nav-item px-1"><a href="../history.html" class="nav-link">History</a></li>
+                    <li class="nav-item px-1"><a href="../documentation.html" class="nav-link active">Documentation</a>
+                    </li>
+                    <li class="nav-item px-1"><a href="../aboutUs.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item px-1"><a href="../users.html" class="nav-link">Users</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Breadcrumb Line -->
+    <div id="scBTN" class="container-fluid pt-5">
+
+        <nav aria-label="breadcrumb pt-5">
+            <ol class="breadcrumb pt-5" style="background-image: linear-gradient(to right,#2c3e50,#FA4F56);">
+
+                <li class="breadcrumb-item" style="text-decoration: none;"><a href="/documentation.html"
+                        class="breadcrumb-link">Documentation</a></li>
+                <li class="breadcrumb-item" style="text-decoration: none;"><a href="#" class="breadcrumb-link"><span
+                            style="color: #3f51b5;">Partials</span> </a></li>
+
+
+            </ol>
+        </nav>
+        <h1 class="p-5" style="color: #3f51b5; -webkit-text-stroke:0.2px #000000 ;">SASS Partials</h1>
+
+    </div>
+
+
+
+
+
+
+
+    <!-- Introduction -->
+    <div class="container-fluid bg-light introduction  pad-bot-top-intro-div">
+        <div class="row  introduction pad-top-intro-row">
+            <div class="col-lg-6 text-dark text-justify pad-bot-top-intro-col1 ">
+                <img class="img-responsive img-thumbnail image" src="/img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
+                    alt="programming">
+            </div>
+            <div class="col-lg-6 text-dark d-flex justify-content-center align-items-center  pad-bot-top-intro-col2 ">
+                <h5 class="pb-4 klasa">
+                    <div class="col-lg-12 text-dark pad-bot-intro-h1">
+                        <h1>Introduction</h1>
+                    </div>
+                    You can create partial Sass files that contain little snippets of CSS that you can include in other
+                    Sass files. <br>
+                    <br> This is a great way to modularize your CSS and help keep things easier to maintain. A partial
+                    is a Sass file named with a
+                    leading underscore. <br>
+                    <br> You might name it something like <b>_partial.scss.</b> The underscore lets Sass know that the
+                    file is
+                    only a partial file and that it should not be generated into a CSS file. Sass partials are used with
+                    the <b>@use</b> rule.
+                </h5>
+
+            </div>
+        </div>F
+    </div>
+
+
+
+
+
+    <!-- 7 in 1 pattern -->
+    <div class="container-fluid pad-bot-top-code-exam-div ">
+
+        <div class="row ">
+            <div class="col-lg-12 text-center" style="color: #ffffff;">
+                <h2>Seven in One pattern hiearchy tree</h2>
+            </div>
+        </div>
+
+
+            <div class="row p-5">
+                <div class="col-lg-12 d-flex justify-content-center jumbo pb-4 mb-5">
+
+                    <div class="card" style="width: 18rem;  color: #2c3e50;">
+                        <img class="card-img-top p-4" src="/img/sass.png" alt="Card image cap">
+                        <div class="pt-3 text-center">
+                            <h3 class="card-title text-danger"> sass/</h3>
+                        </div>
+
+                        <div class="pb-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center jumbo  mb-4">
+
+                    <div class="card" style="width: 18rem; height: 32rem; color: #2c3e50;">
+                        <i class="text-center bg-muted far fa-caret-square-down fa-5x p-5 text-danger"></i>
+
+                        <div class="py-3 text-center">
+                            <h3 class="card-title text-danger">components/</h3>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">_buttons.scss</li>
+                            <li class="list-group-item"> _carousel.scss</li>
+                            <li class="list-group-item">_cover.scss</li>
+                            <li class="list-group-item">_dropdown.scss</li>
+
+                        </ul>
+                        <div class="py-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center jumbo mb-4">
+
+
+                    <!-- <div class="card jumbo" style="width: 18rem;  color: #2c3e50;">
+                    <i class="text-center bg-muted fas fa-laptop-house fa-5x p-5 text-danger"></i>
+                    <div class="py-3 text-center">
+                        <h3 class="card-title text-danger"> layout/</h3>
+                    </div>
+                    <ul class="list-group list-group-flush text-center">
+                        <li class="list-group-item">_navigation.scss</li>
+                        <li class="list-group-item">_grid.scss </li>
+                        <li class="list-group-item">_header.scss</li>
+                        <li class="list-group-item">_footer.scss</li>
+                        <li class="list-group-item">_sidebar.scss</li>
+                        <li class="list-group-item">_forms.scss</li>
+
+                    </ul>
+                    <div class="py-3 text-center">
+
+                        <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                    </div>
+                </div> -->
+                    <div class="card" style="width: 18rem; height: 32rem; color: #2c3e50;">
+                        <i class="text-center bg-muted fas fa-laptop-house fa-5x pt-3 text-danger"></i>
+
+                        <div class="py-3 text-center">
+                            <h3 class="card-title text-danger">layout/</h3>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">_navigation.scss</li>
+                            <li class="list-group-item">_grid.scss </li>
+                            <li class="list-group-item">_header.scss</li>
+                            <li class="list-group-item">_footer.scss</li>
+                            <li class="list-group-item">_sidebar.scss</li>
+                            <li class="list-group-item">_forms.scss</li>
+                        </ul>
+                        <div class="py-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center jumbo mb-4">
+
+                    <div class="card" style="width: 18rem; height: 32rem; color: #2c3e50;">
+                        <i class="text-center bg-muted fas fa-laptop-code fa-5x p-5 text-danger"></i>
+
+                        <div class="py-3 text-center">
+                            <h3 class="card-title text-danger">utils/</h3>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item"> _variables.scss</li>
+                            <li class="list-group-item"> _functions.scss</li>
+                            <li class="list-group-item">_mixins.scss</li>
+                            <li class="list-group-item">_helpers.scss</li>
+                        </ul>
+                        <div class="py-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center jumbo mb-4">
+                    <div class="card" style="width: 18rem;  color: #2c3e50;">
+                        <i class="text-center bg-muted far fa-window-restore fa-5x p-5 text-danger"></i>
+
+                        <div class="py-3 text-center">
+                            <h3 class="card-title text-danger"> base/</h3>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">_reset.scss</li>
+                            <li class="list-group-item">_typography.scss</li>
+
+                        </ul>
+                        <div class="py-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center jumbo mb-4">
+
+                    <div class="card" style="width: 18rem;  color: #2c3e50;">
+                        <i class="text-center bg-muted fab fa-affiliatetheme fa-5x p-5 text-danger"></i>
+
+                        <div class="py-3 text-center">
+                            <h3 class="card-title text-danger"> themes/</h3>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item"> _theme.scss</li>
+                            <li class="list-group-item"> _admin.scss</li>
+
+                        </ul>
+                        <div class="py-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center jumbo mb-4">
+
+                    <div class="card" style="width: 18rem; color: #2c3e50;">
+                        <i class="text-center bg-muted far fa-file fa-5x p-5 text-danger"></i>
+
+                        <div class="py-3 text-center">
+                            <h3 class="card-title text-danger"> pages/</h3>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">_home.scss</li>
+                            <li class="list-group-item">_contact.scss</li>
+
+                        </ul>
+                        <div class="py-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 d-flex justify-content-center jumbo mb-4">
+
+                    <div class="card" style="width: 18rem;  color: #2c3e50;">
+                        <i class="text-center bg-muted fab fa-bootstrap fa-5x p-5 text-danger"></i>
+
+                        <div class="py-3 text-center">
+                            <h3 class="card-title text-danger">vendors/</h3>
+                        </div>
+                        <ul class="list-group list-group-flush text-center">
+                            <li class="list-group-item">_bootstrap.scss</li>
+                            <li class="list-group-item"> _jquery-ui.scss</li>
+
+                        </ul>
+                        <div class="py-3 text-center">
+
+                            <a href="#" class="card-link btn btn-outline-danger text-decoration-none">Read More</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Implementation of 7 in 1 pattern -->
+    <div class="container text-center ">
+        <div class="jumbotron text-dark">
+            <h1>sass --watch input.sass output.css</h1>
+        </div>
+    </div>
+
+
+    <!-- Partials Video -->
+    <div class="container-fluid pad-bot-top-code-exam-div ">
+
+
+        <div class="col-lg-12 text-center" style="color: #ffffff;">
+            <h2>Short animation about importance of partials</h2>
+        </div>
+
+        <div class="col-lg-12  d-flex justify-content-center ">
+            <video class="video" src="/img/my-wonderful-video (1).mp4" controls></video>
+
+        </div>
+    </div>
+
+    <!-- Video Tutorials -->
+    <div class="container-fluid bg-light py-5 my-3 ">
+        <h1 class="display-4 text-dark text-center">Video Tutorials</h1>
+        <h5 class="text-secondary text-center">Learn More About SASS Variables</h5>
+
+        <div class="row py-5">
+            <div class="col-lg-6 mb-3 d-flex justify-content-center">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/rB_DbuFCq_w" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/A0HvXkPmiqc" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- More Info -->
+    <section class="documentation-cards text-light text-center py-5">
+        <div class="container">
+            <h1 class="display-5">Didn't find an answer?</h1>
+            <p class="lead">Get in touch with us for details on setup and additional custom services pricing</p>
+            <a href="https://sass-lang.com/" class="btn btn-outline-light btn-lg">Get Support</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-0">
+        <div class="container-fluid bg-light p-5">
+            <div class="row ">
+                <div class="col-lg-12 text-center my-3">
+                    <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+                    <a href=""><i class="fab fa-instagram fa-2x mx-4"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-2x "></i></a>
+                </div>
+            </div>
+            <div class="row mt-3">
+
+                <div class="col-lg-6 text-center">
+                    <p>© All rights reserved JIM 2020</p>
+                </div>
+                <div id="google_translate_element" style="position: absolute; bottom: 0%; left: 43%;"
+                    class="text-center mt-5">
+                    Translate?
+                </div>
+                <div class="col-lg-6 text-center text-light mb-3">
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">English</a>
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">FAQ </a>
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">Legal Terms</a>
+                    <a class="foot-link" style="text-decoration: none;" href="#">Privacy Policy</a>
+                </div>
+
+            </div>
+    </footer>
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+      
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+            <!-- Our JS File -->
+            <script  src="../js/index.js"></script>
+            <script src="../js/sass-scss.js"></script>
+
+</body>
+
+</html>

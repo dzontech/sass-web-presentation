@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML5 CSS3 SASS MIXINS VARIABLES FUNCTIONS DESIGN WEB">
+    <meta name="description"
+        content="Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/users.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>SASS | Users Page</title>
+</head>
+
+<body>
+    <div class="fixed-icon-scroll scroll-on-click">
+        <a href="#scBTN"><span><i class="fas fa-chevron-up text-danger"></i></span></a>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a href="./index.html" class="navbar-brand">
+                <img src="./img/Sass-Logo-_White_.png" alt="" width="60" height="40">
+            </a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#list">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="list" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item px-1"><a href="./index.html" class="nav-link ">Home</a></li>
+                    <li class="nav-item px-1"><a href="./history.html" class="nav-link">History</a></li>
+                    <li class="nav-item px-1"><a href="./documentation.html" class="nav-link ">Documentation</a>
+                    </li>
+                    <li class="nav-item px-1"><a href="./aboutUs.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item px-1"><a href="./users.html" class="nav-link active">Users</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cards first row -->
+    <section id="scBTN" class="cards-whole">
+        <!-- Curbed NY -->
+        <a href="https://www.curbed.com/" class="card1">
+            <div class="card_whole ">
+                <div class="card_whole-image"></div>
+                <div class="card_whole-text">
+                    <span class="date">81 days ago</span>
+                    <h2>Curbed</h2>
+                    <p>Curbed is an American real estate and urban design website founded as a blog by Lockhart Steele
+                        in 2006. The full website, founded in 2010.</p>
+                </div>
+                <div class="card_whole-stats">
+                    <div class="stat">
+                        <div class="value">4<sup>m</sup></div>
+                        <div class="type">read</div>
+                    </div>
+                    <div class="stat border">
+                        <div class="value">5123</div>
+                        <div class="type">views</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">32</div>
+                        <div class="type">comments</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Polygon Video Game -->
+        <a href="https://www.polygon.com/">
+            <div class="card_whole">
+                <div class="card_whole-image card2"></div>
+                <div class="card_whole-text card2">
+                    <span class="date">1 week ago</span>
+                    <h2>Polygon</h2>
+                    <p>Polygon is a gaming website in partnership with Vox Media. Our culture focused site covers games,
+                        their creators, the fans.</p>
+                </div>
+                <div class="card_whole-stats card2">
+                    <div class="stat">
+                        <div class="value">7<sup>m</sup></div>
+                        <div class="type">read</div>
+                    </div>
+                    <div class="stat border">
+                        <div class="value">7152</div>
+                        <div class="type">views</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">21</div>
+                        <div class="type">comments</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Vox Media -->
+        <a href="https://corp.voxmedia.com/">
+            <div class="card_whole">
+                <div class="card_whole-image card5"></div>
+                <div class="card_whole-text card5">
+                    <span class="date">25 month ago</span>
+                    <h2>Vox Media</h2>
+                    <p>Vox Media, Inc. is an American digital media company based in Washington, D.C. and New York City.
+                        The company was founded in 2005 as SportsBlogs Inc. by Jerome Armstrong</p>
+                </div>
+                <div class="card_whole-stats card5">
+                    <div class="stat">
+                        <div class="value">5<sup>m</sup></div>
+                        <div class="type">read</div>
+                    </div>
+                    <div class="stat border">
+                        <div class="value">3021</div>
+                        <div class="type">views</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">15</div>
+                        <div class="type">comments</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+    <hr class="razmak">
+    <!-- CARDS second row -->
+    <section id="scBTN" class="cards-whole">
+        <!-- The Verge -->
+        <a href="https://www.theverge.com/">
+            <div class="card_whole">
+                <div class="card_whole-image card4"></div>
+                <div class="card_whole-text card4">
+                    <span class="date">80 week ago</span>
+                    <h2>The Verge</h2>
+                    <p>The Verge is an American technology news website operated by Vox Media, publishing news, feature
+                        stories, guidebooks, product reviews, and podcasts.</p>
+                </div>
+                <div class="card_whole-stats card4">
+                    <div class="stat">
+                        <div class="value">25<sup>m</sup></div>
+                        <div class="type">read</div>
+                    </div>
+                    <div class="stat border">
+                        <div class="value">150452</div>
+                        <div class="type">views</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">500000</div>
+                        <div class="type">comments</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- Racked -->
+        <a href="https://www.racked.com/">
+            <div class="card_whole">
+                <div class="card_whole-image card3"></div>
+                <div class="card_whole-text card3">
+                    <span class="date">3 month ago</span>
+                    <h2>Post Three</h2>
+                    <p>Repudiandae corrupti amet temporibus omnis provident illum maxime. Ducimus, lorem ipsum dolor
+                        adipisicing elit</p>
+                </div>
+                <div class="card_whole-stats card3">
+                    <div class="stat">
+                        <div class="value">5<sup>m</sup></div>
+                        <div class="type">read</div>
+                    </div>
+                    <div class="stat border">
+                        <div class="value">3021</div>
+                        <div class="type">views</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">15</div>
+                        <div class="type">comments</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <!-- SB Nation -->
+        <a href="https://www.sbnation.com/">
+            <div class="card_whole">
+                <div class="card_whole-image card6"></div>
+                <div class="card_whole-text card6">
+                    <span class="date">120 days ago</span>
+                    <h2>SB Nation</h2>
+                    <p>SB Nation is a sports blogging network owned by Vox Media. It was co-founded by Tyler Bleszinski
+                        and Markos Moulitsas in 2005. </p>
+                </div>
+                <div class="card_whole-stats card6">
+                    <div class="stat">
+                        <div class="value">10<sup>m</sup></div>
+                        <div class="type">read</div>
+                    </div>
+                    <div class="stat border">
+                        <div class="value">25400</div>
+                        <div class="type">views</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">31000</div>
+                        <div class="type">comments</div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </section>
+
+    <!-- Footer -->
+    <footer class="pt-0">
+        <div class="container-fluid bg-light p-5">
+            <div class="row ">
+                <div class="col-lg-12 text-center my-3">
+                    <a href=""><i class="fab fa-facebook fa-2x "></i></a>
+                    <a href=""><i class="fab fa-instagram fa-2x mx-4"></i></a>
+                    <a href=""><i class="fab fa-twitter fa-2x "></i></a>
+                </div>
+            </div>
+            <div class="row mt-3">
+
+                <div class="col-lg-6 text-center">
+                    <p>© All rights reserved JIM 2020</p>
+                </div>
+                <div id="google_translate_element" style="position: absolute; bottom: 0%; left: 43%;"
+                    class="text-center mt-5">
+                    Translate?
+                </div>
+                <div class="col-lg-6 text-center text-light mb-3">
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">English</a>
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">FAQ </a>
+                    <a class=" pr-2 foot-link" style="text-decoration: none;" href="#">Legal Terms</a>
+                    <a class="foot-link" style="text-decoration: none;" href="#">Privacy Policy</a>
+                </div>
+
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <!-- Our JS File -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
